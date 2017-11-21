@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background-color: #2F2F2F;
+    font-family: "Verdana";
+    color: floralwhite;
+}
+
+nav {
+    background-color: #2F2F2F;
+    padding-bottom: .3em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    border-bottom: 2px solid silver;
+}
+
+h1 {
+    color: turquoise;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav p {
+    margin-top: 0;
+    color: silver;
+}
+
+.section {
+    padding-left: 1em;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+td {
+    background-color: floralwhite;
+    color: black;
+}
+
+th {
+    background-color: turquoise;
+    color: #2F2F2F;
+    padding: 0 1em;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+caption {
+    font-size: 24px;
+}
+
+span {
+    color: turquoise;
+}
+
+.id {
+    text-align: center;
+}
+
+.buttons {
+    padding-left: 6em;
+}
+
+.buttons a {
+    margin-top: 4em;
+    color: floralwhite;
+    background-color: #2F2F2F;
+    padding: .5em 1em;
+    border: 1px solid floralwhite;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttons a:hover {
+    color: turquoise;
+    border: 1px solid turquoise;
+}
+
+a {
+    text-decoration: none;
+}
+
+legend {
+    font-size: 75%;
+    color: silver;
+    padding-left: 2em;
+}
+
+.form {
+    width: 25vw;
+    border: 1px solid floralwhite;
+    padding: 1em;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+  background-color: #2F2F2F;
+  cursor: pointer; }
+  input[type="text"] {
+    cursor: text;
+    background-color: floralwhite; }
+    input[type="text"]:focus {
+      outline: none !important;
+      border: 2px solid turquoise; }
+  input[type="submit"], input[type="reset"] {
+    color: floralwhite;
+    border: 1px solid floralwhite;
+    padding: .5em 1em; 
+    margin-left: 9em; }
+    input[type="submit"]:hover, input[type="reset"]:hover {
+       color: turquoise;
+      border: 1px solid turquoise; }
